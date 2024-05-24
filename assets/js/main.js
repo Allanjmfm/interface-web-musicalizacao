@@ -16,8 +16,10 @@ const idConteudoEtapas = "#conteudo-etapas";
 // Variável para número de tentativas dos exercícios
 let tentativas = 2;
 
-// Variável para o Zoom (Mobile e Desktop)
+// Variável nome da pasta do projeto no github para o link
+let nomeFolder = "/interface-web-musicalizacao"
 
+// Variável para o Zoom (Mobile e Desktop)
 let zoomLevel;
 
 if (Math.round(window.devicePixelRatio) === 1) {
@@ -440,12 +442,14 @@ function mostraPontos(index, exercNum) {
  * @param {string} link - O link para redirecionar.
  * @returns {void}
  */
+
+
 function recomecaEtapa(link, index) {
   removePaginaAtual();
   if (index) {
     reduceUserProgress(index);
   }
-  location.replace(origin + link);
+  location.replace(origin + nomeFolder + link);
 
   let pontosGanhos = parseInt(localStorage.getItem("pontos-ganhos"));
 
@@ -804,7 +808,7 @@ function resetPontos() {
         icon: "success",
       }).then((sucess) => {
         let home = window.origin;
-        location.replace(home);
+        location.replace(home + nomeFolder);
       });
     } else {
       swal("Seus pontos estão salvos!");
@@ -837,7 +841,7 @@ function rediParaParabens(index) {
   index -= 1;
   if (index != null) {
     const link = telaDaParabens[index];
-    console.log(link);
-    location.replace(origin + link);
+
+    location.replace(origin + nomeFolder + link);
   }
 }
