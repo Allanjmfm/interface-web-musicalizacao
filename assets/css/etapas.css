@@ -1,0 +1,279 @@
+.etapa1-menu-container {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 100px;
+    position: relative;
+}
+
+.etapas-text-menu2 {
+    display: none;
+}
+
+
+/* Botão de avançar etapa na tela de parabens */
+
+.parabens-btn-avancar {
+    background-color: var(--btn-bg-parabens);
+    color: white;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition: 0.5s;
+    position: relative;
+}
+
+.parabens-btn-avancar:hover {
+    transition: 0.5s;
+    background-color: var(--btn-bg-parabens-hover);
+    color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+
+/* Botões de avançar e voltar */
+
+.avancar-voltar-btn {
+    background-color: var(--btn-bg);
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition: 0.5s;
+    position: relative;
+}
+
+.avancar-voltar-btn:hover {
+    transition: 0.5s;
+    background-color: var(--btn-bg-hover);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+
+/* Ícone do professor das etapas*/
+
+.icon-container {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.icon-img {
+    height: 100%;
+    width: 100%;
+}
+/* Cor botão reset */
+.cor-reset{
+    background-color: rgb(248, 132, 132);
+    padding: 5px;
+    border-radius: 5px;
+}
+.position-botao{
+    bottom: 40%;
+}
+
+/* GIF do troféu */
+
+.icon-container-trofeu {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.icon-trofeu {
+    width: 100%;
+    height: 100%;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.etapa1-grid-notas {
+    justify-items: center;
+    height: calc(100% - 70%);
+    padding: 1rem;
+}
+
+.etapa1-notas {
+    background-color: var(--btn-bg);
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    min-width: 4.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.notas-bg {
+    background-color: var(--btn-bg);
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+    min-width: 4.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.etapa1-notas:hover {
+    transition: 0.5s;
+    background-color: var(--btn-bg-hover);
+}
+
+.btn-etapas-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    padding: 15px 50px 5px 50px;
+}
+
+.etapa1-texto {
+    height: 100%;
+    /* max-height: 12rem; */
+}
+
+.etapa1-texto>div>h5 {
+    font-weight: 600;
+}
+
+.mensagem {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.msg-certa-cor {
+    color: #4a9e44;
+    background-color: #5e9c592a;
+}
+
+.score-pont{
+    border-radius: .3rem;
+    padding: .5rem;
+    width: 10%;
+}
+.text-bold{
+
+    font-weight:bolder;
+    /* font-size: larger; */
+    /* color: ; */
+}
+
+.btn-resp-certa {
+    background-color: #4a9e44;
+    color: #fff;
+}
+
+.msg-incorrta-cor {
+    color: #df2e38;
+    background-color: #df2e372d;
+}
+
+.container-estapas-div {
+    max-width: 800px;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-container {
+    padding: 1rem;
+}
+
+/* Texto que demonstra as questões certas na tela de parabéns */
+.certaQuestao{
+    background-color: var(--btn-bg-hover);
+}
+
+/* Circulo de progresso */
+
+/* @property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+} */
+/* 
+@keyframes progress {
+    from{
+        --progress-value: var(--progress-value)
+    }
+    to {
+        --progress-value: var(--progress-value-root)
+    }
+} */
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, var(--progress-container-color) 79%, transparent 80% 100%), conic-gradient(var(--progress-color) calc(var(--progress-value) * 1%), var(--progress-container-bg-color) 0);
+    animation: progress 2s 1 forwards;
+}
+
+.progress-bar::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    animation: progress 2s 1 forwards;
+}
+
+@media (max-width: 760px) {
+    .etapas-text-menu {
+        display: none;
+    }
+    .etapas-text-menu2 {
+        display: block;
+    }
+}
+
+@media (min-width: 760px) {
+    .etapa1-icon-prof {
+        position: absolute;
+        left: 0;
+    }
+    .etapa1-menu-container {
+        padding: 1rem 2rem 0.5rem 2rem;
+    }
+}
+
+@media all and (max-width: 760px) {
+    .container-estapas-div {
+        max-height: 100%;
+    }
+    .btn-etapas-container {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        padding: 1rem;
+    }
+    .btn-etapas-container>.btn-container {
+        width: calc(100% - 50px);
+        padding: 1rem 0 0 0;
+    }
+    .btn-etapas-container>.btn-container>.selecao-etapas-btn {
+        width: 100%;
+    }
+    .btn-etapas-container>.btn-container>.parabens-btn-avancar{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    ol {
+        padding-inline-start: 0px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .w-75 {
+        width: 100%!important;
+    }
+}

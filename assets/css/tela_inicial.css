@@ -1,0 +1,20 @@
+/* Botões */
+.tela-inicial-btn{
+    background-color: var(--btn-bg);
+    transition: 0.5s;
+    border: 1px solid #eceeef ;
+}
+.tela-inicial-btn:hover{
+    background-color: var(--btn-bg-hover);
+}
+
+.svg-container-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 100%;
+    max-height: 16rem;
+    max-width: 16.75rem;
+}

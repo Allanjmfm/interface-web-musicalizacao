@@ -1,0 +1,241 @@
+:root {
+    --h-100px: 100px;
+}
+
+.cor-hsl {
+    background-color: hsl(var(--cor-h), var(--cor-s), var(--cor-l));
+}
+
+
+/* Tons das notas Dó (Marrom) */
+
+.cor-nota-do-c1 {
+    /* background-color: rgb(167, 85, 2); */
+    --cor-h: 27;
+    --cor-s: 95.7%;
+    --cor-l: 18.0%;
+}
+
+.cor-nota-do-c2 {
+    --cor-h: 29;
+    --cor-s: 95.5%;
+    --cor-l: 26.1%;
+}
+
+.cor-nota-do-c3 {
+    --cor-h: 30;
+    --cor-s: 95.4%;
+    --cor-l: 34.1%;
+}
+
+.cor-nota-do-c4 {
+    --cor-h: 30;
+    --cor-s: 95.3%;
+    --cor-l: 42.2%;
+}
+
+
+/* Tons das notas Ré (Cinza) */
+
+.cor-nota-re-d1 {
+    /* background-color: rgb(116, 139, 151); */
+    --cor-h: 201;
+    --cor-s: 14.4%;
+    --cor-l: 52.4%;
+}
+
+.cor-nota-re-d2 {
+    --cor-h: 203;
+    --cor-s: 22.2%;
+    --cor-l: 64.7%;
+}
+
+.cor-nota-re-d3 {
+    --cor-h: 203;
+    --cor-s: 39.0%;
+    --cor-l: 76.9%;
+}
+
+
+/* Tons das notas Mi (Rosa) */
+
+.cor-nota-mi-e1 {
+    /* background-color: rgb(255, 0, 255); */
+    --cor-h: 300;
+    --cor-s: 100.0%;
+    --cor-l: 30.4%;
+}
+
+.cor-nota-mi-e2 {
+    --cor-h: 300;
+    --cor-s: 100.0%;
+    --cor-l: 40.2%;
+}
+
+.cor-nota-mi-e3 {
+    --cor-h: 300;
+    --cor-s: 100.0%;
+    --cor-l: 50.0%;
+}
+
+
+/* Tons das notas Fa (Verde-amarelado) */
+
+.cor-nota-fa-f1 {
+    /* background-color: rgb(160, 170, 30); */
+    --cor-h: 64;
+    --cor-s: 70.0%;
+    --cor-l: 39.2%;
+}
+
+.cor-nota-fa-f2 {
+    --cor-h: 64;
+    --cor-s: 68.5%;
+    --cor-l: 47.3%;
+}
+
+.cor-nota-fa-f3 {
+    --cor-h: 64;
+    --cor-s: 84.2%;
+    --cor-l: 55.3%;
+}
+
+
+/* Tons das notas Sol (Laranja) */
+
+.cor-nota-sol-g1 {
+    /* background-color: rgb(220, 140, 0); */
+    --cor-h: 38;
+    --cor-s: 100.0%;
+    --cor-l: 43.1%;
+}
+
+.cor-nota-sol-g2 {
+    --cor-h: 40;
+    --cor-s: 85.4%;
+    --cor-l: 51.6%;
+}
+
+.cor-nota-sol-g3 {
+    --cor-h: 43;
+    --cor-s: 100.0%;
+    --cor-l: 59.2%;
+}
+
+
+/* Tons das notas Lá (Amarelo) */
+
+.cor-nota-la-a1 {
+    /* background-color: rgb(243, 211, 82); */
+    --cor-h: 48;
+    --cor-s: 87.0%;
+    --cor-l: 63.7%;
+}
+
+.cor-nota-la-a2 {
+    --cor-h: 49;
+    --cor-s: 95.7%;
+    --cor-l: 72.4%;
+}
+
+.cor-nota-la-a3 {
+    --cor-h: 53;
+    --cor-s: 100.0%;
+    --cor-l: 80.0%;
+}
+
+
+/* Tons das notas Si (Bege) */
+
+.cor-nota-si-b1 {
+    /* background-color: rgb(255, 192, 203); */
+    --cor-h: 350;
+    --cor-s: 100.0%;
+    --cor-l: 87.6%;
+}
+
+.cor-nota-si-b2 {
+    --cor-h: 348;
+    --cor-s: 100.0%;
+    --cor-l: 90.6%;
+}
+
+.cor-nota-si-b3 {
+    --cor-h: 345;
+    --cor-s: 100.0%;
+    --cor-l: 93.7%;
+}
+
+.cor-notas-bg {
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    width: 100%;
+}
+
+.cor-sustenida {
+    background-color: #FFF;
+}
+
+.cor-notas-black{
+    background-color: rgb(0, 0, 0);
+}
+
+/* width */
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+
+/* height */
+
+.h-100px {
+    height: var(--h-100px);
+}
+
+.h-16 {
+    height: 16%;
+}
+
+.h-37 {
+    height: 37.2%;
+}
+
+.h-58{
+    height: 58%;
+}
+
+.h-59 {
+    height: 59.1%;
+}
+
+.h-65 {
+    height: 65%;
+}
+
+.h-79{
+    height: 79%;
+}
+
+.h-81 {
+    height: 81.4%;
+}
+
+.h-93 {
+    height: 92.9%;
+}
+
+@media (max-height: 768px) {
+    .cor-notas-bg {
+        height: 130px;
+        width: 100%;
+    }
+}
